@@ -1,0 +1,2 @@
+git init: crea una repository locale
+git ctatus :mi permette di verificare lo stato della repository locale
