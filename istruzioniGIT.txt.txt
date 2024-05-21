@@ -1,2 +1,4 @@
 git init: crea una repository locale
 git ctatus :mi permette di verificare lo stato della repository locale
+git add nome file:traccia il file
+git add. : traccia tutti i file
