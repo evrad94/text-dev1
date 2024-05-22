@@ -1,4 +1,22 @@
+#Fse iniziale
+git config --global user.email "your_email@example.com": per settare la mail dell'utente git
+git config --global user.name "your_name" :per settare il name dell'utente
+git config --global --list :per per stampare la lista di variabili globali di git
+
+#ceck status repository
+git status :mi permette di verificare lo stato della repository locale
+
+#Init repository locale
 git init: crea una repository locale
-git ctatus :mi permette di verificare lo stato della repository locale
+
+#Gestione reoisitory locale
 git add nome file:traccia il file
-git add. : traccia tutti i file
+git add. : traccia tutti i file e agguingi
+
+#salvatagio repository locale 
+git commit -m 'messagio': per salvare tutti i file neela repository locale
+
+#collego una repository locale ad una repository remota
+git branch -Main 
+git remote add origin https://github.com/evrad94/text-dev1.git
+git push -u origin main
